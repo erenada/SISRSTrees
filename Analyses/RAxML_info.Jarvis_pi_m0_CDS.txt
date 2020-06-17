@@ -1,0 +1,58 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 46534 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.01%
+
+RAxML Computation of pairwise distances
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 46534
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/Applications/raxmlGUI.app/Contents/Resources/static/bin/raxmlHPC-PTHREADS-SSE3 -T 3 -f x -p 123 -m GTRGAMMA -O -t /Users/eren/Documents/GitHub/SISRSTrees/Analyses/Jarvis_pi_m0_CDS.phylip-relaxed.treefile -n Jarvis_pi_m0_CDS.tre -s /Users/eren/Documents/GitHub/SISRSTrees/Analyses/Jarvis_pi_m0_CDS.phylip-relaxed -w /Users/eren/Documents/GitHub/SISRSTrees/Analyses 
+
+
+
+Log Likelihood Score after parameter optimization: -1080813.301305
+
+
+Computing pairwise ML-distances ...
+
+Time for pair-wise ML distance computation of 1128 distances: 3.218319 seconds
+
+Distances written to file: /Users/eren/Documents/GitHub/SISRSTrees/Analyses/RAxML_distances.Jarvis_pi_m0_CDS.tre

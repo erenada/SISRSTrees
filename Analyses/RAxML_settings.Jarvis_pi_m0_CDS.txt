@@ -1,0 +1,6 @@
+Your analaysis was run as follows:
+Analysis: Pairwise distances
+Binary: raxmlHPC-PTHREADS-SSE3 version 8.2.12
+Results saved to: /Users/eren/Documents/GitHub/SISRSTrees/Analyses
+RAxML was called with these arguments:
+1.) -T 3 -f x -p 123 -m GTRGAMMA -O -t /Users/eren/Documents/GitHub/SISRSTrees/Analyses/Jarvis_pi_m0_CDS.phylip-relaxed.treefile -n Jarvis_pi_m0_CDS.tre -s /Users/eren/Documents/GitHub/SISRSTrees/Analyses/Jarvis_pi_m0_CDS.phylip-relaxed -w /Users/eren/Documents/GitHub/SISRSTrees/Analyses
