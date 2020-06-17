@@ -23,24 +23,24 @@ iqtree -s /home/erenada/BirdTree/Alignments/AllSites/NoGap/m3/Jarvis_pi_m3_CDS_n
 iqtree -s /home/erenada/BirdTree/Alignments/AllSites/NoGap/m4/Jarvis_pi_m4_CDS_nogap.phylip-relaxed -m GTR+I+R -B 1000 -nt AUTO
 iqtree -s /home/erenada/BirdTree/Alignments/AllSites/NoGap/m5/Jarvis_pi_m5_CDS_nogap.phylip-relaxed -m GTR+I+R -B 1000 -nt AUTO
 
-mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m0/*CDS_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS_nogap/m0/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m1/*CDS_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS_nogap/m1/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m2/*CDS_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS_nogap/m2/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m3/*CDS_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS_nogap/m3/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m4/*CDS_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS_nogap/m4/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m5/*CDS_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS_nogap/m5/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m0/*CDS_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS/m0/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m1/*CDS_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS/m1/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m2/*CDS_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS/m2/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m3/*CDS_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS/m3/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m4/*CDS_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS/m4/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m5/*CDS_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS/m5/
 
 
-mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m0/*CDS_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS_nogap/m0/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m1/*CDS_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS_nogap/m1/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m2/*CDS_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS_nogap/m2/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m3/*CDS_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS_nogap/m3/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m4/*CDS_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS_nogap/m4/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m5/*CDS_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS_nogap/m5/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m0/*CDS_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS/m0/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m1/*CDS_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS/m1/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m2/*CDS_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS/m2/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m3/*CDS_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS/m3/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m4/*CDS_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS/m4/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m5/*CDS_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS/m5/
 
-mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m0/*CDS_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS_nogap/m0/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m1/*CDS_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS_nogap/m1/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m2/*CDS_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS_nogap/m2/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m3/*CDS_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS_nogap/m3/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m4/*CDS_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS_nogap/m4/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m5/*CDS_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS_nogap/m5/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m0/*CDS_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS/m0/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m1/*CDS_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS/m1/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m2/*CDS_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS/m2/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m3/*CDS_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS/m3/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m4/*CDS_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS/m4/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m5/*CDS_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoGap/CDS/m5/
