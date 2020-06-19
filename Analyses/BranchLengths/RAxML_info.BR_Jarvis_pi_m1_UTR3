@@ -1,0 +1,74 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.3 released by Alexandros Stamatakis on August 12 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 22843 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 1.21%
+
+RAxML Model Optimization up to an accuracy of 0.100000 log likelihood units
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 22843
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -f e -s /home/erenada/BirdTree/Alignments/AllSites/Gap/m1/Jarvis_pi_m1_UTR3.phylip-relaxed -m GTRGAMMA -t /home/erenada/BirdTree/Analyses/JarvisConverted.nwk -n BR_Jarvis_pi_m1_UTR3 -w /home/erenada/BirdTree/Analyses/BranchLengths --asc-corr=lewis 
+
+
+
+Model parameters (binary file format) written to: /home/erenada/BirdTree/Analyses/BranchLengths/RAxML_binaryModelParameters.BR_Jarvis_pi_m1_UTR3
+
+
+Overall Time for Tree Evaluation 65.271387
+Final GAMMA  likelihood: -391342.203432
+
+Number of free parameters for AIC-TEST(BR-LEN): 102
+Number of free parameters for AIC-TEST(NO-BR-LEN): 9
+
+
+Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
+alpha: 9.005308
+Tree-Length: 3.220777
+rate A <-> C: 0.966929
+rate A <-> G: 4.453675
+rate A <-> T: 0.380351
+rate C <-> G: 1.044628
+rate C <-> T: 4.345749
+rate G <-> T: 1.000000
+
+freq pi(A): 0.313464
+freq pi(C): 0.190945
+freq pi(G): 0.186401
+freq pi(T): 0.309190
+
+Final tree written to:                 /home/erenada/BirdTree/Analyses/BranchLengths/RAxML_result.BR_Jarvis_pi_m1_UTR3
+Execution Log File written to:         /home/erenada/BirdTree/Analyses/BranchLengths/RAxML_log.BR_Jarvis_pi_m1_UTR3
